@@ -1,4 +1,3 @@
-# setup.sh
 #!/bin/bash
-sudo apt-get update
-sudo apt-get install -y python3-dev
+python -m nltk.downloader stopwords
+python -m nltk.downloader wordnet
