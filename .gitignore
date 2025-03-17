@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environment
+.env
+venv/
+env/
+
+# Data/Model files
+*.h5
+*.pkl
+data/
+model/
+
+# OS files
+.DS_Store
+
+# IDE files
+.vscode/
+.idea/
