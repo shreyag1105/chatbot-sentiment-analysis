@@ -10,9 +10,9 @@ venv/
 env/
 
 # Data/Model files
+data/
 *.h5
 *.pkl
-data/
 model/
 
 # OS files
@@ -21,3 +21,8 @@ model/
 # IDE files
 .vscode/
 .idea/
+# .gitignore
+- *.h5
+- *.pkl
+- model/
++ # model/  # Comment out temporarily
